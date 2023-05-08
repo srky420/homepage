@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Set each column of grid to random image using image number
     cols.forEach(col => {
-        col.innerHTML = '<img src=\"/images/gallery/' + randNums[i] + '.jpg\" alt=\"image\">';
+        col.innerHTML = `<img src="./images/gallery/${randNums[i]}.jpg" alt="image">`;
         i++;
     });
 
